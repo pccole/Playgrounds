@@ -50,7 +50,6 @@ coin.sample(count: 100)
 
 
 //////////////////////////////////////////////////////////////////////
-
 extension Sequence where Element: Distribution {
     
     func sumOfSamples() -> Element.Value {
@@ -68,7 +67,6 @@ extension Sequence where Element: Distribution {
  
 
 //////////////////////////////////////////////////////////////////////
-
 struct UniformDistribution: Distribution {
     
     var range: ClosedRange<Int>
@@ -79,5 +77,4 @@ struct UniformDistribution: Distribution {
 }
 
 UniformDistribution(range: 0...11).sample()
-
 //: [Next](@next)

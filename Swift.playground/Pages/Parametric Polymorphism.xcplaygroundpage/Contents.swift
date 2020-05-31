@@ -1,4 +1,10 @@
-
+//: [Previous](@previous)
+/*:
+ # Parametric Polymorphism
+ In programming languages and type theory, parametric polymorphism is a way to make a language more expressive,
+ while still maintaining full static type-safety. Using parametric polymorphism, a function or a data type can be written
+ generically so that it can handle values identically without depending on their type.
+ */
 import Foundation
 
 struct Stack<Element> {
@@ -37,6 +43,5 @@ ints.pop()
 ints.push(20)
 ints.top
 ints.isEmpty
-
 
 //: [Next](@next)

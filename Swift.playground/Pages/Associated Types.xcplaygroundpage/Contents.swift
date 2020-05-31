@@ -1,7 +1,5 @@
 //: [Previous](@previous)
-
 import Foundation
-
 protocol Distribution {
     associatedtype Value
     
@@ -97,7 +95,4 @@ iq.sample(count: 100)
 
 // if you add a non-static associatedtype to the protocol even if the type is Self you can only use that
 // protocol as a generic constraint
-
-
-
 //: [Next](@next)
